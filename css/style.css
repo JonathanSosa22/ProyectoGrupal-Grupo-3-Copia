@@ -242,6 +242,10 @@ form {
   margin-left: 2%;
 }
 
+select {
+  width: 200px;
+}
+
 /* Contacto */
 
 .contacto {

@@ -8,6 +8,7 @@ html {
   box-sizing: inherit;
   padding: 0;
   margin: 0;
+  max-width: 100%;
 }
 
 body {
@@ -23,6 +24,7 @@ a {
 .container {
   width: 100%;
   padding: 20px;
+  min-width: 1200px;
 }
 
 /* Nav */
@@ -129,6 +131,10 @@ h1 {
   display: flex;
   justify-content: center;
   gap: 40px;
+}
+
+.recetas-dulces div {
+  max-width: 33%;
 }
 
 .recetas-dulces p {

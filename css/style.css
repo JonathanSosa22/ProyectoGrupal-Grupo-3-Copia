@@ -1,0 +1,244 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-family: "League Spartan", sans-serif;
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  padding: 20px;
+}
+
+/* Nav */
+
+.nav-img {
+  position: absolute;
+}
+
+.nav-img img {
+  width: 100px;
+  height: 100%;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav-a {
+  width: 100%;
+  background-color: black;
+  padding: 34px 150px;
+}
+
+.nav-a a {
+  font-size: 18px;
+  color: white;
+  padding: 0 20px;
+}
+
+.nav a:hover {
+  color: aqua;
+}
+
+/* Home */
+
+.home {
+  background-color: orange;
+}
+
+h1 {
+  text-align: center;
+  color: blueviolet;
+}
+
+.home-img {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.home-img img {
+  width: 350px;
+  height: 300px;
+}
+
+.home-img h2 {
+  padding: 10px 0;
+  color: blue;
+  text-align: center;
+}
+
+.plan {
+  text-align: center;
+}
+
+.plan h3 {
+  font-size: 30px;
+  padding: 20px 0;
+}
+
+.plan-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.plan-col p {
+  font-size: 24px;
+  width: 500px;
+  padding: 7px;
+  margin: 5px 0;
+  border-radius: 50px;
+  border: 1px solid;
+  background: blue;
+}
+
+/* Sobre mi */
+
+.photos {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.photos img {
+  width: 450px;
+  height: 450px;
+}
+
+/* Recetas Dulces Y Saladas*/
+
+.recetas-dulces {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.recetas-dulces p {
+  font-size: 28px;
+  width: 500px;
+  padding: 7px;
+  margin: 5px 0;
+  border-radius: 50px;
+  border: 1px solid;
+  background: blue;
+  text-align: center;
+}
+
+.recetas {
+  padding: 20px;
+  background-color: gray;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.recetas div {
+  padding: 20px;
+}
+
+.recetas h2 {
+  text-align: center;
+}
+
+.recetas h3,
+li {
+  padding: 10px 0;
+}
+
+.recetas img {
+  width: 400px;
+  height: 350px;
+}
+
+.recetas-titulo-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.recetas-dulces a {
+  color: black;
+}
+
+/* Contacto */
+
+.contacto {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 60%;
+  margin: auto;
+}
+
+input,
+textarea {
+  padding: 5px;
+}
+
+form p {
+  padding: 5px;
+  color: aqua;
+}
+
+/* Footer */
+
+footer {
+  display: grid;
+  text-align: center;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: black;
+  color: white;
+}
+
+footer h3 {
+  padding: 20px 0;
+}
+
+footer img {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.linea {
+  border: 1px solid aqua;
+  width: 190px;
+  margin: auto;
+}
+
+.info-pag {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+}
+
+.alum,
+.prof {
+  text-align: left;
+}
+
+span {
+  color: aqua;
+}

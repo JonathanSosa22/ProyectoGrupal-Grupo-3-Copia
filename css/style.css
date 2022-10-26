@@ -183,6 +183,65 @@ li {
   color: black;
 }
 
+/* Turno y consulta */
+
+.turnos P {
+  text-align: left;
+  color: black;
+  line-height: 25px;
+  margin-left: 2%;
+}
+
+legend {
+  color: black;
+}
+
+.TextoNegrita {
+  line-height: 50px;
+}
+
+.calendario {
+  text-align: center;
+  width: 300px;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+
+.turnos ol {
+  color: black;
+  background-color: rgb(255, 255, 255, 0.3);
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  padding: 0;
+}
+
+.DiaSemana {
+  background: blueviolet;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 10%;
+}
+
+.PrimerDia {
+  grid-column-start: 6;
+  padding-top: 10%;
+}
+
+.turnos li {
+  padding-top: 10%;
+}
+
+form {
+  margin-left: 2%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.turnos a {
+  margin-left: 2%;
+}
+
 /* Contacto */
 
 .contacto {
